@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: HappyEnd
+  m_EditorClassIdentifier: 
+  storyText: 'You burst into the cockpit and open fire. By sheer luck you immediately
+    kill all the armed officers on board and spare the lives of everyone needed to
+    fly and land the vessel.
+
+    
+
+    Congratulations, you win this battle, you''re
+    on your way home! Well, first you''ll have to make your way through the capital
+    of the Third Reich (which in this world turns out to be Rome), defeat numerous
+    horrible creatures created by the nazi scientists, find the other Time Machine
+    and maybe even kill Hitler!
+
+    
+
+    All of these and many other adventures
+    await you if you make a pre-order now! Just send a check for $200 to your future
+    self - and you''re good to go!
+
+
+    1. Play again'
+  nextState:
+  - {fileID: 11400000, guid: 8a579b52d8b629b4abc50033b87fdfad, type: 2}

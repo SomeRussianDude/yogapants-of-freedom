@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: Lab3
+  m_EditorClassIdentifier: 
+  storyText: "The old man looks even angrier than before: \"Do you have trouble hearing
+    after the teleportation? This machine is dead, it's not taking anyone anywhere
+    or anywhen! Just so you know there are only two of these in this particular universe
+    and the second one is in herr Hitler's residence. We are in fact passing almost
+    right above it but I'm afraid you will soon be too busy with your trepanation.
+    Now be a good girl, turn away and put your hands on the wall.\r\n\r\nWhat a dark
+    prospect, you don't see the point in yeilding\r\n\r\n1. Drop down to get the
+    weapon from the floor\r\r\n2. Try rushing bare-handed towards the man"
+  nextState:
+  - {fileID: 11400000, guid: 571024cdf3f5b4f4aae6330d9ae4b55c, type: 2}
+  - {fileID: 11400000, guid: 571024cdf3f5b4f4aae6330d9ae4b55c, type: 2}

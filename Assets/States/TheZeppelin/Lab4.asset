@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: Lab4
+  m_EditorClassIdentifier: 
+  storyText: "The scientist wasn't expecting that. Startled, he raises his gun, takes
+    a step forward, steps into the puddle of oil, slips - and in the fall knocks
+    himself out cold hitting the desk with his head.\r\n\r\nYou grab the gun and
+    look around: you need to act fast before he comes to. You notice a door that
+    says \"Cockpit\" on it. So what are you going to do?\r\n\r\n1. Run to the Cockpit\r\n\r2.
+    Tie the Russian down\r\n\r3. Try to use the machine and go home"
+  nextState:
+  - {fileID: 11400000, guid: 4cbc057c74f237e46bd2bd7593c33a6d, type: 2}
+  - {fileID: 11400000, guid: 4d95df00da354f246b8dc3be83475e48, type: 2}
+  - {fileID: 11400000, guid: fa6f2bb7e5d1d5747a0ee7cf0dc6151a, type: 2}

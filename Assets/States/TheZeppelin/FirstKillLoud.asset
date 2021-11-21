@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: FirstKillLoud
+  m_EditorClassIdentifier: 
+  storyText: "The journey stops as abruptly as it had started. You're laying in the
+    corner of a large steel cage in a spacious room with a very low ceiling. Something
+    is pulling your arm down: the device that brought you here is still in your hand.
+    You're not alone in the cage, in the other corner you see a horrible creature:
+    a body of a rottweiler is carrying a wild boar's head, and it's tail is something
+    you would normally see on a reptile.\r\n\r\nYour screams have drawn it's attention,
+    the beast has dropped its meal - a human leg - and is rushing in your direction.
+    What are you going to do now?\r\n\r\n1. Try to tame the beast\r\n\r2. Attack
+    it with the device"
+  nextState:
+  - {fileID: 11400000, guid: efa03e5310b56de4cb39383d73235ebb, type: 2}
+  - {fileID: 11400000, guid: 8661ced67ea945e4193dbee43d159572, type: 2}

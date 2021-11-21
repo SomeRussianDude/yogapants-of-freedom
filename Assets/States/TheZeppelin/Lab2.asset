@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: Lab2
+  m_EditorClassIdentifier: 
+  storyText: 'The scientist is content, he lowers the gun. Anticipating your questions
+    he begins: "The previous ones appeared outside of the vessel, fell to death,
+    didn''t even let us run some tests, do the trepanation.. You obviously appeared
+    somewhere in the next cabins, I can only wonder where you got your weapon from.
+    You were supposed to land INSIDE the machine! And instead you toasted it!" -
+    He''s pointing at the smoking device. He''s very angry and clearly blaming you
+    for breaking his toy.
+
+    
+
+    You''ve had enough of this nonsense.
+
+    
+
+    1.
+    "Send me back home!"'
+  nextState:
+  - {fileID: 11400000, guid: b2f5e7f0c075e244fbda516eda06db54, type: 2}

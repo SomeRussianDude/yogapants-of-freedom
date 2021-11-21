@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: Gameover2
+  m_EditorClassIdentifier: 
+  storyText: 'The plan failed. The guard woke up and immediately used the gun he
+    had in his holster.
+
+    
+
+    Maybe next time you''ll pick a better plan,
+    wanna try?
+
+    
+
+    1. Try again'
+  nextState:
+  - {fileID: 11400000, guid: 8a579b52d8b629b4abc50033b87fdfad, type: 2}

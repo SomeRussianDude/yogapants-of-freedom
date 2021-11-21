@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccf3991e0773f2d46b31c9ca4c0a0f8e, type: 3}
+  m_Name: Jail2
+  m_EditorClassIdentifier: 
+  storyText: 'Not the most noble thing you''ve done in your life but what else are
+    you supposed to do to armed nazi prison guards.
+
+
+    The one-legged man introduces
+    himself as Thomas, he has a strong Australian accent. He''s very greatful - the
+    guard had fallen asleep as he got tired of torturing him. But you''re actually
+    unable to set poor Tommy free: the cage can only be opened from the cockpit.
+    "Your help won''t go unrewarded: the Rebel Alliance of Oceania will pay you handsomely
+    in potable water!"
+
+
+    You take the guard''s pistol and fighting the desire
+    for a thousand questions head towards the door.
+
+
+    1. Go through the door'
+  nextState:
+  - {fileID: 11400000, guid: 2952bf63345b8ac44836b5fad88e2c5e, type: 2}
